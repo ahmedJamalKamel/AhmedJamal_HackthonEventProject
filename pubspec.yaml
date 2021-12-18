@@ -37,6 +37,12 @@ dependencies:
   flutter_datetime_picker: ^1.5.1
   intl: ^0.17.0
   date_format: ^2.0.4
+  http: ^0.13.4
+  shared_preferences: ^2.0.8
+  image_picker: ^0.8.4+3
+  get: ^4.3.8
+  flutter_screenutil: ^5.0.0+2
+  hexcolor: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -61,8 +67,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - image/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
